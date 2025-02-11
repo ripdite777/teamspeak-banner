@@ -13,8 +13,8 @@ $ts3_libary = '../vendor/planetteamspeak/ts3-php-framework/libraries/TeamSpeak3/
 
 // Serverquery connection
 $serverquery_username = 'serveradmin'; // Default serverquery_username: 'serveradmin'
-$serverquery_password = 'PASSWORD'; // Password
-$server_ip = '127.0.0.1'; // Set to '127.0.0.1' if the webserver and TS3 server are hosted on the same server (localhost)
+$serverquery_password = ''; // Password
+$server_ip = '192.168.1.107'; // Set to '127.0.0.1' if the webserver and TS3 server are hosted on the same server (localhost)
 $serverquery_port = '10011'; // Default serverquery_port: '10011'
 $server_port = '9987'; // Default server_port: '9987'
 
@@ -22,8 +22,8 @@ $server_port = '9987'; // Default server_port: '9987'
 $ts3_bots = 0; // Amount of Bots on the TS3 server
 
 // Admins online
-$admin = 0; // Shows the amout of admins inside a box: 1 = Enabled, 0 = Disabled
-$admin_id = 0; // Group icon ID from the Admins
+$admin = 1; // Shows the amout of admins inside a box: 1 = Enabled, 0 = Disabled
+$admin_id = 1; // Group icon ID from the Admins
 
 // Locale information
 date_default_timezone_set('Europe/Berlin'); // Locale date information
